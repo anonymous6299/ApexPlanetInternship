@@ -1,0 +1,33 @@
+*{
+    font-family:"Arial", sans-serif;
+}
+.first-heading{
+    text-align:center
+}
+.about-heading{
+    text-align:center;
+    margin:20px 0px;
+}
+.description-para{
+    text-align:justify;
+    margin:0px 10rem;
+}
+.image{
+    display:block;
+    margin:3rem auto;
+}
+.btn-div{
+    text-align:center
+}
+.btn{
+    background:#ea580c;
+    padding:10px 3rem;
+    font-size:16px;
+    border:none;
+    border-radius:6px;
+    color:#fff7ed;
+    cursor:pointer
+}
+.btn:hover{
+    background:#e05408;
+}
