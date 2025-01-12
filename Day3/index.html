@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;margin: 2rem 0rem;">Responsive Image Carousel with API Integration</h1>
+    <div class="slider" style="display: flex;justify-content: space-between;">
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+              </svg>
+        </button>
+        <div class="images">
+            <img src="https://picsum.photos/id/237/800/400" alt="img">
+            <img src="https://picsum.photos/id/238/800/400" alt="img">
+            <img src="https://picsum.photos/id/239/800/400" alt="img">
+        </div>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg>
+        </button>
+    </div>
+    <div class="weather-jokes" style="width: fit-content;margin: 4rem auto;display: flex;">
+        <div class="weather" style="border: 1px solid black;margin: 0px 2em;padding: 1rem 2rem;border-radius: 6px;">
+            <h3>Today's Weather is: </h3>
+            <p style="font-size: 60px;">32° C</p>
+        </div>
+        <div class="jokes" style="border: 1px solid black;margin: 0px 2em;padding: 1rem 2rem;border-radius: 6px;">
+            <h3>Joke of the Day: </h3>
+            <p>Joke of the Day </p>
+        </div>
+    </div>
+</body>
+
+</html>

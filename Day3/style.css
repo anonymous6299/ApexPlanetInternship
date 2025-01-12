@@ -1,0 +1,33 @@
+*{
+    font-family:"arial";
+    margin:0;
+    padding:0
+}
+.slider{
+    position:relative;
+    top:1rem;
+    border:1px solid black;
+    border-radius:0.5rem;
+    padding:2rem 4rem;
+    height:25rem;
+    width:60%;
+    left:14rem
+}
+.images{
+    position:absolute;
+    left:7.5rem
+}
+img{
+    border-radius:0.7rem;
+    position:absolute;   
+}
+button{
+    margin-right:1rem;
+    background: black;
+    padding: 0rem 6px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor:pointer;
+    background:rgb(41, 41, 41);
+}
