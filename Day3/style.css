@@ -16,3 +16,67 @@
 .btns button:hover{
     background:#272727;
 }
+#slider{
+    display:flex;
+    overflow-x:hidden;
+    border:1px solid black;
+    width:800px;
+    margin:0px auto;
+}
+.jokes{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+}
+
+@media (max-width: 880px) {
+    #slider{
+        width:600px;
+    }
+    img{
+        width:600px;
+    }
+ }
+@media (max-width: 680px) {
+    #slider{
+        width:400px;
+    }
+    img{
+        width:400px;
+    }
+    h1{
+        font-size:20px
+    }
+    .btns button{
+        width:8rem;
+        height:2rem;
+        border-radius:0.2rem;
+        font-size:1rem;
+    }
+ }
+@media (max-width: 420px) {
+    #slider{
+        width:200px;
+    }
+    img{
+        width:200px;
+    }
+    .btns button{
+        width:5rem;
+        height:1rem;
+        border-radius:0.2rem;
+        font-size:0.5rem;
+    }
+    .jokes{
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+    }
+    .jokes h2{
+        font-size:14px
+    }
+    .jokes p{
+        font-size:10px
+    }
+ }
