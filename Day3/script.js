@@ -55,15 +55,15 @@ const moveToPrev = () => {
     }
 
 }
-// const getJokes = async() => {
-//     const resp = await (await fetch("https://api.api-ninjas.com/v1/jokes",{
-//         method:'GET',
-//         headers:{
-//             'Content-Type':'application/json',
-//             'X-Api-Key':"lvPZGD/xEpENnSl9ySPYAw==mhNpUWfac1poH14a"
-//         }
-//     })).json();
-//     const [response] = resp
-//     document.getElementById("joke").innerText=response.joke
-// }
-// getJokes();
+const getJokes = async() => {
+    const resp = await (await fetch("https://api.api-ninjas.com/v1/jokes",{
+        method:'GET',
+        headers:{
+            'Content-Type':'application/json',
+            'X-Api-Key':"lvPZGD/xEpENnSl9ySPYAw==mhNpUWfac1poH14a"
+        }
+    })).json();
+    const [response] = resp
+    document.getElementById("joke").innerText=response.joke
+}
+getJokes();
