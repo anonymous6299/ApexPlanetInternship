@@ -1,7 +1,7 @@
 [
   {
     "Name": "TaskFlow Manager",
-    "Description": "A web app to track and manage daily tasks.",
+    "Description": "A web app to manage daily tasks.",
     "TechStack": "React, Node.js, Express, MongoDB",
     "CompletedOn": "2025-06-15",
     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
