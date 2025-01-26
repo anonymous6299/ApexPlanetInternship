@@ -1,0 +1,11 @@
+import React from 'react'
+
+export default function About() {
+  return (
+    <div className='container my-5'>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni repellat quasi vel libero enim quae iure veniam est eaque, repellendus voluptatum fuga itaque molestiae nulla voluptatibus eum doloremque quam? Minima, excepturi neque. Esse deserunt magnam, itaque eveniet quia cupiditate veritatis optio consectetur temporibus ut dolorem iusto a! Quibusdam id molestias quas qui, similique impedit. Sequi labore accusantium facilis, officia eum assumenda quisquam similique velit aliquam. Excepturi nostrum praesentium necessitatibus aliquid assumenda temporibus dolores! Earum, eligendi, consequatur itaque impedit possimus ratione porro maiores sit totam officiis sapiente odio ea! Iusto quas rem eum corrupti in ullam ipsa vero voluptas dolorum repudiandae. A temporibus non neque necessitatibus rerum doloribus officia vitae! Nisi illum atque sed unde maiores voluptates, animi adipisci inventore autem consequuntur magnam! Voluptatum nobis optio blanditiis explicabo vel dolores dolorem minima tempore sed animi a, distinctio harum. Excepturi aperiam est illum nihil libero eos id, beatae exercitationem sed eaque ipsam, itaque quibusdam officia neque debitis modi incidunt, dolore quis qui dignissimos. Dolores dolorem reiciendis beatae excepturi quis voluptates illum facere in necessitatibus iste ea expedita ex, quod possimus, quisquam aspernatur! Tempora corrupti voluptates eaque sed quia, exercitationem cumque architecto eius tenetur? Amet et veniam libero, vel vitae numquam atque dolores perspiciatis dolore reprehenderit nulla nam dignissimos mollitia distinctio maiores fuga quidem voluptate expedita eum? Ex obcaecati error labore minima. Quia officiis maxime, dolorum sapiente iste debitis corrupti nesciunt quis quo totam, dignissimos nam ratione tempora fugiat voluptate voluptatibus! Cumque perferendis iure error libero autem repellendus porro sunt, nesciunt sequi itaque, facilis, corporis doloremque corrupti modi magni veniam totam explicabo dolor? Nostrum quo asperiores maiores, harum molestias odio eveniet eaque praesentium! Aliquam sunt voluptatum repellat beatae, consequatur illo inventore quidem necessitatibus nulla non maiores at. 
+      </p>
+    </div>
+  )
+}

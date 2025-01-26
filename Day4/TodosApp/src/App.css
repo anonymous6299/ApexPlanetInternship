@@ -1,0 +1,33 @@
+h1,p{
+    color: #03295a;
+}
+.thisCard-title{
+    color: #01142e;
+}
+.btn{
+    color: #dbe8fa;
+}
+label{
+    color: #03295a;
+}
+.navbar-brand, .nav-link{
+    color: #01142e;
+}
+.navbar-brand, .nav-link:hover{
+    color: #000c1b;
+}
+@media (max-width:370px) {
+    .thisCard, .card{
+        margin-right: 16%;
+    }
+}
+@media (max-width:440px) {
+    .thisCard, .card{
+        margin-left: 14%;
+    }
+}
+@media (min-width:500px) {
+    .thisCard{
+        margin-left: 37%;
+    }
+}
