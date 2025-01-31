@@ -12,7 +12,7 @@ const Product = (props) => {
                      
                         <div className="name flex space-x-3 items-center" key={index}>
                         <p className="font-semibold">{item}:</p>
-                        <p>{props.data[`${item}`]}</p>
+                        <p>{`${item==="Price"?"₹":""}`+props.data[`${item}`]}</p>
                     </div>
                     )
                     

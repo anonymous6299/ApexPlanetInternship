@@ -1,140 +1,140 @@
 [
   {
     "Name": "The Pragmatic Programmer",
-    "Price": "₹3,817",
+    "Price": 3817,
     "Rating": 4.8,
     "category": "Books",
     "image_url": "https://m.media-amazon.com/images/I/91mSZ570DUL._AC_UL210_SR210,210_.jpg"
   },
   {
     "Name": "Clean Code",
-    "Price": "₹3,319",
+    "Price": 3319,
     "Rating": 4.7,
     "category": "Books",
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7BRzSMiCicUFPwEMcWwMEqBZ7ifI57cDrw&s"
   },
   {
     "Name": "Atomic Habits",
-    "Price": "₹1,493",
+    "Price": 1493,
     "Rating": 4.9,
     "category": "Books",
     "image_url": "https://gyaanstore.com/cdn/shop/files/230_2581bdfc-eb21-4ecd-b310-4f79a6f8de88.png?v=1701690380&width=1445"
   },
   {
     "Name": "Deep Work",
-    "Price": "₹1,868",
+    "Price": 1868,
     "Rating": 4.6,
     "category": "Books",
     "image_url": "https://m.media-amazon.com/images/I/81JJ7fyyKyS._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "Name": "MacBook Air M2",
-    "Price": "₹91,299",
+    "Price": 91299,
     "Rating": 4.9,
     "category": "Electronics",
     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDc7UdVXRT18EjdVeEvspmqQKaOwWERwIxaw&s"
   },
   {
     "Name": "Samsung Galaxy S23",
-    "Price": "₹74,699",
+    "Price": 74699,
     "Rating": 4.7,
     "category": "Electronics",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP._FC-jLDaooRyrZY6hY8mkAAAAA&w=200&h=204&c=7"
   },
   {
     "Name": "Sony WH-1000XM5 Headphones",
-    "Price": "₹33,199",
+    "Price": 33199,
     "Rating": 4,
     "category": "Electronics",
     "image_url": "https://tse4.mm.bing.net/th?id=OIP.jzVtyTSDIE3hMKn307UNFQHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Logitech MX Master 3S Mouse",
-    "Price": "₹8,299",
+    "Price": 8299,
     "Rating": 3.7,
     "category": "Electronics",
     "image_url": "https://tse4.mm.bing.net/th?id=OIP.FX71Oykj6Hy3pW9nhYBdSQHaE7&w=200&h=133&c=7"
   },
   {
     "Name": "Parker Fountain Pen",
-    "Price": "₹2,157",
+    "Price": 2157,
     "Rating": 4.1,
     "category": "Stationery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.phjBY3JND27TloQgMORlkwHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Moleskine Notebook",
-    "Price": "₹1,659",
+    "Price": 1659,
     "Rating": 3,
     "category": "Stationery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.kgssAtnjPnj5Bh1OQoOvugHaHR&w=200&h=196&c=7"
   },
   {
     "Name": "Pilot G2 Gel Pen",
-    "Price": "₹207",
+    "Price": 207,
     "Rating": 4.1,
     "category": "Stationery",
     "image_url": "https://tse2.mm.bing.net/th?id=OIP.73goY-3h6HaJv0q_PKPdgQHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Staples Copy Paper",
-    "Price": "₹746",
+    "Price": 746,
     "Rating": 1,
     "category": "Stationery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.FMRwhz32Iqtr1nm0lDUKLQHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Organic Almonds",
-    "Price": "₹1,327",
+    "Price": 1327,
     "Rating": 4.8,
     "category": "Grocery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.Y90OInBL4I7LUFESL6UfSQHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Quinoa",
-    "Price": "₹829",
+    "Price": 829,
     "Rating": 4.7,
     "category": "Grocery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.0TNz6pNzgSEQon5xN2DZegHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Olive Oil",
-    "Price": "₹1,077",
+    "Price": 1077,
     "Rating": 2,
     "category": "Grocery",
     "image_url": "https://tse4.mm.bing.net/th?id=OIP.rLtB06wkZcOTQYWJsVSu1gHaKY&w=200&h=280&c=7"
   },
   {
     "Name": "Whole Grain Bread",
-    "Price": "₹414",
+    "Price": 414,
     "Rating": 3,
     "category": "Grocery",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.UtJv0cq4wyGQyS5nYV40aQHaFj&w=200&h=150&c=7"
   },
   {
     "Name": "Men's Classic T-Shirt",
-    "Price": "₹1,244",
+    "Price": 1244,
     "Rating": 4.6,
     "category": "Clothing",
     "image_url": "https://tse1.mm.bing.net/th?id=OIP.V7HyGhLUrJEFnKcT-NsHAAHaI-&w=200&h=242&c=7"
   },
   {
     "Name": "Women's Skinny Jeans",
-    "Price": "₹4,149",
+    "Price": 4149,
     "Rating": 4.7,
     "category": "Clothing",
     "image_url": "https://imagescdn.thecollective.in/img/app/product/9/910453-11248551.jpg?w=500&auto=format"
   },
   {
     "Name": "Men's Running Shoes",
-    "Price": "₹9,960",
+    "Price": 9960,
     "Rating": 4.8,
     "category": "Clothing",
     "image_url": "https://tse2.mm.bing.net/th?id=OIP.SKYzHRVoKSIkq8PUohj2EgHaHa&w=200&h=200&c=7"
   },
   {
     "Name": "Women's Running Shoes",
-    "Price": "₹13,280",
+    "Price": 13280,
     "Rating": 4.8,
     "category": "Clothing",
     "image_url": "https://tse2.mm.bing.net/th?id=OIP.olPFOHywc8X6Awpjj58iEgHaEL&w=200&h=113&c=7"

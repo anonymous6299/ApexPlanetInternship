@@ -4,20 +4,12 @@ import Context from "../Context/Context";
 
 const Sort = () => {
   const categories = ["Books", "Electronics", "Stationery", "Grocery", "Clothing"];
-  const price = [300, 900, 1_500, 7_500,10_000, "Min", "Max"];
+  const price = [300, 900, 1_500, 7_500,10_000];
   const rating = [1, 2, 3, 4, 5];
 
 
   const context = useContext(Context);
-  const {ChangeCategory,filterByRating}=context;
-  const [Category, setCategory] = useState("");
-  const [Rating, setRating] = useState("");
-  useEffect(() => {
-    ChangeCategory(Category);
-  }, [Category])
-  useEffect(() => {
-    filterByRating(Rating)
-  }, [Rating])
+  const {setCategory,setRating,Category,setPrice}=context;
   
   return (
     <div className="border-r border-gray-200 pr-8">
@@ -38,9 +30,9 @@ const Sort = () => {
         <p className="text-sm pt-4 pb-1">Price:</p>
         {
           price.map((item, index) => {
-            return <div key={index} className="flex items-center my-2">
-              <input type={isNaN(item) ? "text" : "radio"} name={item} id={item} className={isNaN(item) ? "border border-gray-400 outline-none w-20 rounded-sm mx-2 px-2" : ""} />
-              <label htmlFor={item} className={isNaN(item) ? "order-first" : "order-last ml-5"}>{isNaN(item)?item:"Upto ₹"+item}</label>
+            return <div key={index} className="flex items-center my-2 space-x-2">
+              <input type="radio" name="price" id={item} onClick={(e)=>{setPrice(e.target.id)}}/>
+              <label htmlFor={item}>{"Upto ₹"+item}</label>
             </div>
           })
         }
@@ -52,7 +44,7 @@ const Sort = () => {
         {
           rating.map((item, index) => {
             return <div key={index} className="my-2 space-x-2">
-              <input type="radio" name="rating" id={item} value={Rating} onClick={(e)=>{setRating(e.target.id)}}/>
+              <input type="radio" name="rating" id={item} onClick={(e)=>{setRating(e.target.id)}}/>
               <label htmlFor={item}>{item} Star</label>
             </div>
           })
