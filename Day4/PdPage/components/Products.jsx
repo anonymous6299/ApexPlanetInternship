@@ -1,13 +1,17 @@
 import Product from "./Product"
-import data from '../data.json'
+import { useContext } from "react"
+import Context from "../Context/Context"
+
+
 
 const Products = () => {
-  const products = data;
+  const context=useContext(Context);
+  const {AllProducts}=context;
   return (
     <div className="h-[37rem] overflow-y-scroll">
       <div className="grid grid-cols-4 grid-rows-5 gap-10 pr-8">
         {
-          products.map((item, index) => {
+          AllProducts.map((item, index) => {
             return <Product key={index} data={item}/>
           })
         }
