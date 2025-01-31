@@ -9,12 +9,15 @@ const Sort = () => {
 
 
   const context = useContext(Context);
-  const {ChangeCategory}=context;
+  const {ChangeCategory,filterByRating}=context;
   const [Category, setCategory] = useState("");
+  const [Rating, setRating] = useState("");
   useEffect(() => {
-    console.log(Category)
     ChangeCategory(Category);
   }, [Category])
+  useEffect(() => {
+    filterByRating(Rating)
+  }, [Rating])
   
   return (
     <div className="border-r border-gray-200 pr-8">
@@ -49,7 +52,7 @@ const Sort = () => {
         {
           rating.map((item, index) => {
             return <div key={index} className="my-2 space-x-2">
-              <input type="radio" name={item} id={item} />
+              <input type="radio" name="rating" id={item} value={Rating} onClick={(e)=>{setRating(e.target.id)}}/>
               <label htmlFor={item}>{item} Star</label>
             </div>
           })

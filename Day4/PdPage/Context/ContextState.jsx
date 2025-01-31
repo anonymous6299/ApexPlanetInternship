@@ -16,10 +16,12 @@ const ContextState = (props) => {
         }
     }
     const filterByRating = (rating) => {
-        const newpds = data.filter((item) => {
-            return item.rating <= rating;
-        })
-        setAllProducts(newpds);
+        if (rating!=="") {
+            const newpds = data.filter((item) => {
+                return item.Rating <= Number.parseInt(rating);
+            })
+            setAllProducts(newpds);
+        }
     }
     const filterByPrice = (price, min, max) => {
         if (!min && !max) {
