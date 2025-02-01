@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="about border w-[45%] my-20 mx-auto pt-1 px-6 pb-6 rounded-lg">
+        <div className="about border w-[43rem] max-[890px]:w-[40rem] max-[670px]:w-[36rem] max-[600px]:w-[30rem] max-[503px]:w-[26rem]  max-[435px]:w-80  max-[345px]:w-64 my-20 mx-auto pt-1 px-6 pb-6 rounded-lg">
             <h2 className='text-left text-lg font-bold'>About Me</h2>
             <p className='text-justify text-sm'>
                 I’m a passionate and versatile software developer specializing in creating intuitive, user-focused websites and applications. With a strong foundation in web development, I excel at blending creativity with functionality to deliver high-quality, scalable solutions.
