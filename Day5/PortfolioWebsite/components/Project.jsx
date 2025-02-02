@@ -10,7 +10,7 @@ const Project = (props) => {
             <div className="desc px-4 grid" style={{gridTemplateRows:"2rem 3.5rem 3.5rem 2rem 1.5rem"}}>
                 {
                     fields.map((item,index)=>{
-                        return <div className="grid grid-cols-2">
+                        return <div className="grid grid-cols-2" key={index}>
                         <p className="font-medium">{item}:</p>
                         <p>{project[`${item}`]}</p>
                     </div>
